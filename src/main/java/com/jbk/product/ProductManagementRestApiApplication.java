@@ -12,6 +12,7 @@ public class ProductManagementRestApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductManagementRestApiApplication.class, args);
+		System.out.println("dev1 changes")
 	}
 @Bean
 public CommonsMultipartResolver commonsMultipartResolver() {

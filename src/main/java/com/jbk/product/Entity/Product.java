@@ -14,7 +14,7 @@ public class Product {
 	@Id
 	private String productId;
 	
-	@NotNull(message = "ProductName is required")
+	@NotNull(message = "ProductName is required")// validation
 	
 	private String productName;
 	
